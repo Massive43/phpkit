@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      pejabat7korupsi
+    </title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Whoopszz !!
+    </title>
+    <style>
+      *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:&#34;Courier New&#34;, monospace;
+}
+
+body{
+  background:#000;
+  color:#eaeaea;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:30px 15px;
+}
+
+/* IMAGE */
+.logo{
+  width:200px;
+  margin-bottom:25px;
+  display:block;
+  filter:drop-shadow(0 0 15px #ff0000);
+}
+
+/* TEXT */
+.quote{
+  max-width:900px;
+  text-align:center;
+  font-size:1.05rem;
+  line-height:1.8;
+  margin-bottom:50px;
+  padding:0 10px;
+}
+
+.signature{
+  margin-top:15px;
+  color:#ff0000;
+  letter-spacing:2px;
+  font-weight:bold;
+}
+
+.sigma{
+  margin-top:15px;
+  color:#FFFFFF;
+  letter-spacing:2px;
+  font-weight:bold;
+}
+
+/* MUSIC BUTTON */
+.music-box{
+  position:fixed;
+  bottom:30px;
+}
+
+.play-btn{
+  background:linear-gradient(135deg,#ff0000,#7a0000);
+  color:#fff;
+  border:none;
+  padding:14px 34px;
+  font-size:1rem;
+  letter-spacing:2px;
+  cursor:pointer;
+  border-radius:30px;
+  box-shadow:
+    0 0 15px #ff0000,
+    0 0 35px rgba(255,0,0,.7);
+  transition:.3s;
+}
+
+.play-btn:hover{
+  transform:scale(1.1);
+  box-shadow:
+    0 0 30px #ff0000,
+    0 0 60px rgba(255,0,0,1);
+}
+
+audio{ display:none; }
+    </style>
+    <img src="https://koinly.io/_next/image/?url=https%3A%2F%2Fd10leigxh71r1t.cloudfront.net%2F400x400%2F00387c0ccd%2Fbome-logo.png%2Fm%2F&w=128&q=75" class="logo" />
+    <div class="quote">
+      Kalian menyebut diri pelindung sistem,  
+padahal kelalaian kalian adalah pintu yang paling sering terbuka.  
+Rapat demi rapat hanya melahirkan slogan,  
+sementara audit dijawab dengan alasan dan pengalihan.  
+Kritik kalian sebut ancaman, transparansi kalian sebut risiko,  
+karena kebenaran selalu berbahaya bagi kekuasaan yang rapuh.  
+Ingat baik-baik: kepercayaan publik tidak mati karena serangan,  
+ia dibunuh perlahan oleh kebohongan yang kalian rawat sendiri.
+      <div class="signature">
+        Gott PWN!! by AgMsv
+        <div class="sigma">
+       - Support By BuitenZExploiter -
+      </div>
+    </div>
+    <!-- MUSIC -->
+    <div class="music-box">
+      <button class="play-btn" onclick="toggleMusic()">
+        ▶ PLAY MUSIC
+      </button>
+    </div>
+    <audio id="music" loop="">
+      <source src="https://n.f-a-k.workers.dev/lagu.mp3" type="audio/mpeg" />
+    </audio>
+    <script>
+      const music = document.getElementById(&#34;music&#34;);
+const btn = document.querySelector(&#34;.play-btn&#34;);
+
+function toggleMusic(){
+  if(music.paused){
+    music.play();
+    btn.innerHTML = &#34;⏸ PAUSE MUSIC&#34;;
+  }else{
+    music.pause();
+    btn.innerHTML = &#34;▶ PLAY MUSIC&#34;;
+  }
+}
+    </script>
+  </body>
+</html>
